@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Events Example</title>
+</head>
+<body>
+  <script>
+    window.addEventListener('keydown', function(event) {
+      console.log(`Keydown: ${event.key}`);
+    });
+
+    window.addEventListener('keypress', function(event) {
+      console.log(`Keypress: ${event.key}`);
+    });
+  </script>
+</body>
+</html>
